@@ -4,6 +4,7 @@ import { AboutComponent } from './general/about/about.component';
 import { ContactComponent } from './general/contact/contact.component';
 import { HomeComponent } from './general/home/home.component';
 import { LoginComponent } from './general/login/login.component';
+import { ProductDetailsComponent } from './general/product-details/product-details.component';
 import { ProductsComponent } from './general/products/products.component';
 import { RegisterComponent } from './general/register/register.component';
 
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path:"", component:HomeComponent},
   {path:"home", component:HomeComponent},
   {path:"products", component:ProductsComponent},
+  {path:"product-details", component:ProductDetailsComponent},
   {path:"about", component:AboutComponent},
   {path:"contact", component:ContactComponent},
   {path:"login", component:LoginComponent},
