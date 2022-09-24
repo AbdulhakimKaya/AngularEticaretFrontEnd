@@ -14,6 +14,8 @@ import { RegisterComponent } from './general/register/register.component';
 import { HttpClientModule  } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductDetailsComponent } from './general/product-details/product-details.component';
+import { Product1Component } from './general/product1/product1.component';
+import { Product2Component } from './general/product2/product2.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ProductDetailsComponent } from './general/product-details/product-detai
     ProductsComponent,
     LoginComponent,
     RegisterComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    Product1Component,
+    Product2Component
   ],
   imports: [
     BrowserModule,
